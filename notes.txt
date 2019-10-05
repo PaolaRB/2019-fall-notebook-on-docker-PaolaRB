@@ -1,1 +1,3 @@
-The prefix "[ci] New modification" will trigger the build in a CI/CD environment 
+The prefix "[ci] New modification" will trigger the build in a CI/CD environment
+
+When a dockerfile was modified in github and there is a local image already, it needs to be done a docker pull and docker run
